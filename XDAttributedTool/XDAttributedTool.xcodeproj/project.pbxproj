@@ -13,6 +13,7 @@
 		C2AA8FB71D533CB200777188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2AA8FB51D533CB200777188 /* Main.storyboard */; };
 		C2AA8FB91D533CB200777188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2AA8FB81D533CB200777188 /* Assets.xcassets */; };
 		C2AA8FBC1D533CB200777188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2AA8FBA1D533CB200777188 /* LaunchScreen.storyboard */; };
+		C2AA8FC61D533D4E00777188 /* XDAttributedText.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AA8FC51D533D4E00777188 /* XDAttributedText.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		C2AA8FB81D533CB200777188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2AA8FBB1D533CB200777188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2AA8FBD1D533CB200777188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2AA8FC41D533D4E00777188 /* XDAttributedText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDAttributedText.h; sourceTree = "<group>"; };
+		C2AA8FC51D533D4E00777188 /* XDAttributedText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDAttributedText.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		C2AA8FAB1D533CB200777188 /* XDAttributedTool */ = {
 			isa = PBXGroup;
 			children = (
+				C2AA8FC31D533D2E00777188 /* AttributedTool */,
 				C2AA8FAF1D533CB200777188 /* AppDelegate.h */,
 				C2AA8FB01D533CB200777188 /* AppDelegate.m */,
 				C2AA8FB21D533CB200777188 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				C2AA8FAD1D533CB200777188 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2AA8FC31D533D2E00777188 /* AttributedTool */ = {
+			isa = PBXGroup;
+			children = (
+				C2AA8FC41D533D4E00777188 /* XDAttributedText.h */,
+				C2AA8FC51D533D4E00777188 /* XDAttributedText.m */,
+			);
+			path = AttributedTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			files = (
 				C2AA8FB41D533CB200777188 /* ViewController.m in Sources */,
 				C2AA8FB11D533CB200777188 /* AppDelegate.m in Sources */,
+				C2AA8FC61D533D4E00777188 /* XDAttributedText.m in Sources */,
 				C2AA8FAE1D533CB200777188 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
